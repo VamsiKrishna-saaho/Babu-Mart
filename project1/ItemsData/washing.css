@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    width: 100%;
+    padding-top: 12px;
+    background-color: rgb(235, 225, 231);
+    cursor: pointer;
+    position: fixed;
+    top: -0px;
+    z-index:1;
+
+    
+}
+nav input{
+    position: relative;
+    top:-5px;
+    border-radius: 20px;
+    padding-left: 20px;
+    
+    font-size: 15px;
+}
+svg{
+    height:20px;
+    width:20px;
+    position: relative;
+    right: 180px;
+    top: 3px;
+}
+nav :nth-child(5){
+    position: absolute;
+    left: 80%;
+}
+nav :nth-child(8)
+{
+    position: absolute;
+    right:8.5%;
+    height: 20px;
+    width: 15px;
+    top: 10px;
+    
+}
+
+#div2{
+    /* border: 2px solid blue; */
+    display: flex;
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    flex-wrap: wrap;
+    
+   
+    
+    
+}
+.div3{
+    /* border: 2px solid red; */
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px black;
+
+}
+img{
+    height: 450px;
+    width: 300px;
+    padding-left: 20%;
+}
+button{
+    height: 30px;
+    width: 120px;
+    border-radius: 20px;
+    background-color: red;
+   position: relative;
+   left: 35%;
+   margin-top: 5%;
+}
+span{
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}
+
+aside{
+    /* border: 2px solid red; */
+    height: 0px;
+    width: 300px;
+    overflow: scroll;
+    position: absolute;
+    top: 45px;
+    left: 140px;
+    background-color: rgb(227, 245, 239);
+    box-shadow: 0px 0px 10px 0px black;
+    
+
+
+}
+aside ol li{
+    /* border: 2px solid green; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    padding-left: 50px;
+    padding-top: 9px;
+    box-shadow: 0px 0px 5px 0px black;
+    cursor: pointer;
+    
+}
+aside ol li:hover{
+    background-color: rgb(49, 49, 121);
+    color: white;
+}

@@ -1,0 +1,79 @@
+*{
+    border: 0%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+background-image: url(https://c0.wallpaperflare.com/preview/198/135/731/cyber-attack-abstract-access.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+#loginForm{
+
+    /* border: 2px solid red; */
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px white;
+
+}
+#loginForm input{
+    height: 50px;
+    border-radius: 5px;
+}
+#loginForm label{
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    color: white;
+}
+#loginForm button{
+    background-color: red;
+    height: 40px;
+    width: 200px;
+    border-radius: 20px;
+    position: relative;
+    left:25% ;
+    color: white;
+    cursor: pointer;
+}
+ p{
+    position: absolute;
+    left: 32%;
+    top: 73%;
+    color: white;
+}
+#btr2{
+    position: absolute;
+    left: 55%;
+    top: 72%;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+#registerForm button:hover{
+    background-color: azure;
+    color: red;
+}
+#btr2:hover{
+    background-color: azure;
+    color: red;
+} 
+h3{
+    color: white;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
